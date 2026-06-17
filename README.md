@@ -112,20 +112,6 @@ The app currently uses these tables:
 - `session_history`
 - `bookmarks` is present in comments and can be added later if you want saved items
 
-## Seeding Dummy Data
-
-If you want immediate local content:
-
-1. Open [supabase/seed.sql](/Users/jagdeepsingh/Desktop/brillx/brillx/supabase/seed.sql)
-2. Paste it into the Supabase SQL editor
-3. Run it
-
-That seed file:
-
-- Clears `companions` and `session_history`
-- Inserts several realistic companions
-- Inserts matching session history rows
-
 ## Running Locally
 
 ```bash
